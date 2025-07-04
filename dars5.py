@@ -122,6 +122,9 @@ def salon_menyu():
 
         elif tanlash == "0":
             break
+        
+        else:
+            print("Tanlov noto'g'ri!\n")
 
 def asosiy_menyu():
     while True:
@@ -149,6 +152,9 @@ def asosiy_menyu():
             AutoSalon.ochirish(salon_id)
         elif tanlash == "0":
             break
+
+        else:
+            print("Tanlov noto'g'ri!\n")
 
 if __name__ == "__main__":
     asosiy_menyu()                  
